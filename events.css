@@ -1,0 +1,114 @@
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url('../images/timeline-bg-home.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.full-events {
+    background: url('../images/timeline-bg-home.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.full-history {
+    background: url('../images/timeline-bg-home.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.logo-top {margin: 32px 0 0 40px !important;display:inline;float:left;}
+
+
+
+.button-top {margin: 32px 40px 0 0 !important;padding:13px 40px;display:inline;float:right;font-weight:300;font-size:16px;border:2px #fff solid;color:#fff;opacity:.8;}
+
+
+	
+
+
+.item h2 {text-align:center;color:#222;font-size:20px;}
+
+.middle {background-color:#fff;width:80%;height:40%;margin:0 auto;max-width:1290px;border-bottom:8px solid #F7E700;
+}
+
+.lower-header {font-family: "proxima-nova", Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";color:#0097DF;font-size:48px;font-weight:600;padding:40px 20px 5px 20px;
+}
+
+.lower-header2 {font-family: "proxima-nova", Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";color:#0097DF;font-size:48px;font-weight:600;padding:40px 70px 25px 70px;text-align:left;line-height:58px;
+}
+
+.lower-header-body {font-family: "proxima-nova", Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";color:#5A5A5A;font-size:20px;line-height:30px;padding:0 70px 10px 70px;font-weight:300;margin:0 auto;text-align:center;}
+
+.lower-header-body2 {font-family: "proxima-nova", Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";color:#5A5A5A;font-size:20px;line-height:30px;padding:0 70px 10px 70px;font-weight:300;margin:0 auto;text-align:left;}
+
+.read-more a {font-family: "proxima-nova", Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";color:#0D4E87;font-size:19px;line-height:30px;font-weight:100;margin:0 auto;text-align:center;}
+
+a.read-more:hover{color:#ffffff;}
+
+.read-more {padding:0 70px 40px 70px;}
+
+
+.subfooter {background-color:#0098DC;padding:1% 10% 4% 10%;height:100%;}
+
+footer {background-color:#444444;padding:2% 10%;}
+
+.subfooter-header {font-family: "proxima-nova", Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";color:#FFFFFF;font-size:52px;font-weight:600;padding:40px 20px 5px 0;
+}
+
+.subfooter-well{font-family: "proxima-nova", Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";color:#FFFFFF;font-size:16px;font-weight:100;padding:20px 20px 10px 0;float:left;width:30%;margin-right:2%;}
+
+.subfooter-well-left{padding:20px 20px 10px 0;float:left;margin-right:2%;}
+
+.subfooter-well-right{padding:20px 20px 10px 0;float:right;}
+
+.subfooter-container {max-width:1290px;margin:0 auto;}
+
+.social{padding-right:6px;}
+
+/* MEDIA QUERIES */
+
+@media(max-width:766px)
+{
+	.button-top {display:none;}
+}
+
+@media(max-width:810px)
+{
+	.subfooter-well {display:block !important;float:none;margin:auto;width:60%;max-width:100%;text-align:center;}
+}
+
+@media(max-width:810px)
+{
+	.subfooter-header {text-align:center;line-height:50px;}
+}
+
+@media(max-width:900px){
+	.logo-top{max-width: 50%;
+	height: auto !important;}
+}
+
+@media(min-width:766px){
+	.navbar-nav .gift {display:none;}
+}
+
+@media(max-width:674px)
+{
+	.subfooter-well-left {display:block !important;float:none;margin:auto;width:60%;max-width:100%;text-align:center;}
+}
+
+@media(max-width:674px)
+{
+	.subfooter-well-right {display:block !important;float:none;margin:auto;width:60%;max-width:100%;text-align:center;}
+}
